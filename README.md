@@ -8,7 +8,6 @@ This project is a server-side application built with Node.js and React + Vite th
 Project Structure
 
 Frontend
-
 Client/
   ├── public/
   └── src/
@@ -16,7 +15,8 @@ Client/
       ├── components/
       ├── App.js
       ├── index.js
-      └── ... 
+      └── ...
+
 React + Vite frontend.
 
 Client folder contains the frontend code where you can start the development server.
@@ -31,6 +31,7 @@ server/
   │   ├── balance.js
   │   └── user.js
   ├── server.js
+
 Node.js & Mongoose backend.
 
 server folder contains the backend code, including authentication, balance, and user routes.
