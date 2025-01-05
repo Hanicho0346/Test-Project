@@ -95,6 +95,7 @@ Real-time Updates: Integrated Socket.io for real-time updates of balances and no
 Database
 
 Database Name: Users
+
 Use Mongoose Compass to manage and interact with the MongoDB database.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
