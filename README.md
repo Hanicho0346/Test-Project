@@ -1,9 +1,14 @@
 Finance Management Project
+
+
 Overview
+
 This project is a server-side application built with Node.js and React + Vite that enables users to manage their finances, including user authentication, balance management, and user data handling.
 
 Project Structure
+
 Frontend
+
 Client/
   ├── public/
   └── src/
@@ -13,8 +18,10 @@ Client/
       ├── index.js
       └── ... 
 React + Vite frontend.
+
 Client folder contains the frontend code where you can start the development server.
 Backend
+
 server/
   ├── node_modules/
   ├── package.json
@@ -25,16 +32,27 @@ server/
   │   └── user.js
   ├── server.js
 Node.js & Mongoose backend.
+
 server folder contains the backend code, including authentication, balance, and user routes.
+
 server.js is the entry point to the backend server.
+
 routes contain different route files for handling functionality.
+
 Prerequisites
+
 Node.js installed on your machine.
+
 npm (Node Package Manager) for managing dependencies.
+
 Installation
+
 Clone this repository:
+
 git clone https://github.com/Hanicho0346/Test-Project.git
+
 cd Test-Project
+
 Install dependencies:
 
 Navigate to the server directory
@@ -42,8 +60,11 @@ cd server
 Run the backend:
 
 Start the server
+
 node server.js
+
 The application should now be running on the default port (usually http://localhost:3000).
+
 Run the frontend:
 
 Navigate to the client directory:
@@ -52,6 +73,7 @@ Start the frontend:
 npm run dev
 
 Features
+
 User Authentication: Secure user login using JWT (JSON Web Tokens).
 Balance Management: Ability for users to view and update their financial balance.
 User Data Handling: Routes to manage user information and account settings.
@@ -67,6 +89,8 @@ RESTful API: Reorganized routes to follow RESTful principles.
 Role-based Access Control (RBAC): Implemented different user roles to secure sensitive actions like deleting user data.
 Error Handling & Logging: Added robust error handling and logging with Winston and Morgan.
 Real-time Updates: Integrated Socket.io for real-time updates of balances and notifications.
+
+
 Database
 
 Database Name: Users
