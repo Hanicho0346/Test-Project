@@ -1,0 +1,21 @@
+{
+    "root": true,
+    "extends": ["react-app", "react-app/jest", "plugin:react-hooks/recommended", "plugin:@typescript-eslint/recommended"],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["react-hooks", "@typescript-eslint"],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error", // Ensures hooks are used correctly
+      "react-hooks/exhaustive-deps": "warn", // Warns about missing dependencies in hooks
+      "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }], // Warn for unused variables, ignore those prefixed with _
+      "@typescript-eslint/no-explicit-any": "warn", // Warn when `any` is used
+      "@typescript-eslint/explicit-module-boundary-types": "off", // Allow implicit types for module boundaries
+      "no-console": "warn", // Warn on console logs
+      "no-debugger": "error" 
+    },
+    "settings": {
+      "react": {
+        "version": "detect" 
+      }
+    }
+  }
+  
