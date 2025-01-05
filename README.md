@@ -1,7 +1,5 @@
 Finance Management Project
 
-https://github.com/user-attachments/assets/b8342043-fbba-4cc3-8845-b371023b9a84
-
 
 
 Overview
